@@ -51,7 +51,7 @@ ul{
 }
 @media (min-width: 310px) {
     .countainer{
-        width: 90%;
+        width: 95%;
     }
 }
 @media (min-width: 768px) {
@@ -195,6 +195,10 @@ header .countainer > .image > img{
     header .countainer > .image{
         margin: auto;
     }
+    header .countainer {
+        padding: 10px;
+        margin: auto;
+    }
 }
 header .main-nav {
     flex-basis: 50%;
@@ -233,12 +237,12 @@ header .main-nav > li > a {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-@media (max-width: 767px) {
-   header .main-nav > li .other,
+@media (max-width: 363px) {
+    header .main-nav > li .other,
     header .main-nav > li > a{
-        padding: 10px;
-        font-size: 12px;
-        height: 45px;
+        padding: 7px;
+        font-size: 11px;
+        height: 40px;
     }
 }
 header .main-nav > li .other::before,
